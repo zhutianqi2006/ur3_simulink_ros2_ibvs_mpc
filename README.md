@@ -37,6 +37,7 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 <p align="center">
 <img src="doc/image/plot.png" width="900" height="230">
 </p>
+
 ### UR3 simulator:
 This controller does not involve the robot arm simulation part. Robot arm simulation can be found in the project:
 

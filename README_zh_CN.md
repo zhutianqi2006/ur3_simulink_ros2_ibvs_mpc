@@ -39,9 +39,10 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 <p align="center">
 <img src="doc/image/plot.png" width="900" height="230">
 </p>
+
 ### UR3 IBVS仿真器：
 
-本控制器不涉及机械臂仿真部分，机械臂仿真可见项目，下载release下的文件即可使用
+The controller does not involve the mechanical arm simulation part, which is visible in the mechanical arm simulation project. You can download the files under the release section to use it.
 
 | Project | Link|
 | --------------------------| ------------------------------------------------------------------------------------- |
