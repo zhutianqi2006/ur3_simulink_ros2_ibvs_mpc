@@ -35,7 +35,7 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 
 ⭐3: Stop the Simulink file. Data generated during the process will be saved in the workspace. Open the plot folder and select the corresponding .m file to plot the data.
 
-### MPC Controller:
+### UR3 simulator:
 This controller does not involve the robot arm simulation part. Robot arm simulation can be found in the project:
 
 | Project | Link|

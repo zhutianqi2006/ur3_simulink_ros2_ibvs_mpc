@@ -36,10 +36,12 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 ⭐2：在保证机械臂和视觉可以通信时，运行ur3_simulink_ros2_ibvs_mpc.slx执行mpc控制器，发布期望的关节速度。
 
 ⭐3：停止simulink文件，运行过程中的数据会保存在工作空间，打开plot文件夹，选择对应的m文件进行画图。
+<p align="center">
+<img src="doc/image/plot.png" width="900" height="230">
+</p>
+### UR3 IBVS仿真器：
 
-### mpc控制器：
-
-本控制器不涉及机械臂仿真部分，机械臂仿真可见项目
+本控制器不涉及机械臂仿真部分，机械臂仿真可见项目，下载release下的文件即可使用
 
 | Project | Link|
 | --------------------------| ------------------------------------------------------------------------------------- |

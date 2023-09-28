@@ -14,7 +14,7 @@ hold on;
 set(gca,'XLim',[0 out.mpc_output.Data(end,7)],'FontSize',16);
 set(gca,'YLim',[-0.6, 0.6],'FontSize',16);
 set(gca,'YTick',-0.6:0.2:0.6);
-legend({'$joint1_v$','$joint2_v$','$joint3_v$','$joint4_v$','$joint5_v$','$joint6_v$'},'FontSize',16,'Interpreter','latex','NumColumns',4);
+legend({'$joint1_v$','$joint2_v$','$joint3_v$','$joint4_v$','$joint5_v$','$joint6_v$'},'FontSize',16,'Interpreter','latex','NumColumns',2);
 xlabel('Time (s)','FontSize',20,'Interpreter','tex');
 ylabel('Velocity (rad/s)','FontSize',20,'Interpreter','tex');
 hold on;
