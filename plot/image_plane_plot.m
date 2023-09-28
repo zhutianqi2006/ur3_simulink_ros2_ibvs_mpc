@@ -33,9 +33,12 @@ plot(a_an_1(:,7),a_an_1(:,8),'Color',[1 187/255 0],'LineWidth',2.2);
 plot(a_an_1(1,7),a_an_1(1,8),'Color',[1 187/255 0],'Marker','*');
 plot(a_an_1(end,7),a_an_1(end,8),'Color',[1 187/255 0],'Marker','o');
 axis ij;
-xlabel('pixels')
-ylabel('pixels')
-axis([-320,320,-240,240]);
+xlabel('pixels','FontSize',20,'Interpreter','tex');
+ylabel('pixels','FontSize',20,'Interpreter','tex');
+set(gca,'XLim',[-320 320],'FontSize',16);
+set(gca,'YLim',[-240, 240],'FontSize',16);
+set(gca,'XTick',-320:80:320);
+set(gca,'YTick',-240:80:240);
 hold off;
 saveas(h_fig, h_fig.Name, 'fig')
 saveas(h_fig, h_fig.Name, 'svg')
