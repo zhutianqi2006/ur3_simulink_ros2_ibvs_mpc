@@ -34,7 +34,9 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 ⭐2: Ensure that the robot arm and vision are communicative, then run ur3_simulink_ros2_ibvs_mpc.slx to execute the MPC controller and publish desired joint velocities.
 
 ⭐3: Stop the Simulink file. Data generated during the process will be saved in the workspace. Open the plot folder and select the corresponding .m file to plot the data.
-
+<p align="center">
+<img src="doc/image/plot.png" width="900" height="230">
+</p>
 ### UR3 simulator:
 This controller does not involve the robot arm simulation part. Robot arm simulation can be found in the project:
 
