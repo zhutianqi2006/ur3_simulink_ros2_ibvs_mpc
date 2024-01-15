@@ -64,6 +64,6 @@ mpcobj.OutputVariables(10).MaxECR =0.01;
 mpcobj.OutputVariables(11).MaxECR =0.01;
 %the weights of output
 mpcobj.Weights.ManipulatedVariables = [0,0,0,0,0,0];
-mpcobj.Weights.ManipulatedVariablesRate = [10,10,10,10,10,10];
+mpcobj.Weights.ManipulatedVariablesRate = [8,8,8,8,8,8];
 mpcobj.Weights.OutputVariables =[1,1,1,1,1,1,1,1,0,0,0];
 setEstimator(mpcobj,'custom');

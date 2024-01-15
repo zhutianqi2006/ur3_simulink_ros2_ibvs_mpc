@@ -42,8 +42,12 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 
 ### UR3 IBVS仿真器：
 
-The controller does not involve the mechanical arm simulation part, which is visible in the mechanical arm simulation project. You can download the files under the release section to use it.
+控制器部分不包括机械臂仿真模型，对应的仿真器可以在下面项目的release中直接下载。
 
 | Project | Link|
 | --------------------------| ------------------------------------------------------------------------------------- |
 | UR3 Unity ROS2 IBVS | https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs  |
+
+### 常见问题
+
+如果simulink编译后无法运行，删除C:\ProgramData\eprosima\fastrtps_interprocess内的所有文件即可。

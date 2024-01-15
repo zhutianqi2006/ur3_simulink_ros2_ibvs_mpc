@@ -39,8 +39,12 @@ git clone https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs.git
 </p>
 
 ### UR3 simulator:
-This controller does not involve the robot arm simulation part. Robot arm simulation can be found in the project:
+The controller does not involve the mechanical arm simulation part, which is visible in the mechanical arm simulation project. You can download the files under the release section to use it.
 
 | Project | Link|
 | --------------------------| ------------------------------------------------------------------------------------- |
 | UR3 Unity ROS2 IBVS | https://github.com/zhutianqi2006/ur3_unity_ros2_ibvs  |
+
+### Common Issues
+
+If it suddenly can't run, simply delete all the files inside C:\ProgramData\eprosima\fastrtps_interprocess.
